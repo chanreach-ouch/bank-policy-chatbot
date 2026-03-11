@@ -1,0 +1,14 @@
+Loan Policy Summary (Version 3.0)
+
+1. Personal loan applicants must be at least 21 years old.
+2. Minimum monthly income threshold:
+   - Salaried: USD 400
+   - Self-employed: USD 600 with verifiable records
+3. Mandatory documents:
+   - National ID or Passport
+   - Income evidence (salary slips or tax filings)
+   - Recent bank statement (last 3 months)
+4. Standard loan processing time is 3 to 5 business days after complete document submission.
+5. Early settlement fee may apply depending on product terms.
+6. Final approval remains subject to internal risk assessment and compliance checks.
+

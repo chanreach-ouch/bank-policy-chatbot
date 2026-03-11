@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Khmer:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bank-primary: #059669;
+  --bank-sidebar: #0f172a;
+  --bank-surface: #ffffff;
+  --bank-bg: #f8fafc;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", "Noto Sans Khmer", sans-serif;
+  background: var(--bank-bg);
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,43 @@
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!backend/.env.example
+!backend/.env.postgres.example
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+backend/.venv/
+backend/.packages/
+backend/.tmp/
+backend/pytest-cache-files-*/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local runtime data
+uploads/
+vector_store/
+*.log
+backend/*.log
+frontend/*.log
+backend/bank_policy.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "policy_name": "Customer KYC Requirements",
+  "version": "2.1",
+  "effective_date": "2026-01-10",
+  "requirements": [
+    "Valid government-issued identity card or passport",
+    "Recent proof of address dated within the last 90 days",
+    "Customer contact information and occupation details",
+    "Source of funds declaration for high-risk accounts"
+  ],
+  "notes": [
+    "Additional documents may be requested for enhanced due diligence.",
+    "Non-resident customers must provide immigration status documents."
+  ]
+}
+

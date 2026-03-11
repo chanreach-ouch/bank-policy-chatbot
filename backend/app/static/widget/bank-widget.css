@@ -1,0 +1,149 @@
+.bpw-root {
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  font-family: "Segoe UI", "Noto Sans Khmer", sans-serif;
+}
+
+.bpw-root.bpw-left {
+  left: 20px;
+}
+
+.bpw-root.bpw-right {
+  right: 20px;
+}
+
+.bpw-button {
+  width: 58px;
+  height: 58px;
+  border-radius: 999px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 18px 34px -20px rgba(0, 0, 0, 0.45);
+}
+
+.bpw-panel {
+  width: 360px;
+  max-width: calc(100vw - 24px);
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 20px 38px -24px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.bpw-header {
+  background: #0f172a;
+  color: #fff;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bpw-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bpw-subtitle {
+  margin: 2px 0 0;
+  color: #cbd5e1;
+  font-size: 11px;
+}
+
+.bpw-close {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  cursor: pointer;
+}
+
+.bpw-body {
+  height: 320px;
+  overflow-y: auto;
+  background: linear-gradient(#ffffff, #f8fafc);
+  padding: 12px;
+}
+
+.bpw-message {
+  max-width: 85%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.bpw-message.user {
+  margin-left: auto;
+  color: #fff;
+}
+
+.bpw-message.bot {
+  margin-right: auto;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  color: #0f172a;
+}
+
+.bpw-actions {
+  padding: 0 12px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bpw-chip {
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  font-size: 11px;
+  background: #f8fafc;
+  color: #334155;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.bpw-input-wrap {
+  border-top: 1px solid #e2e8f0;
+  padding: 12px;
+}
+
+.bpw-row {
+  display: flex;
+  gap: 8px;
+}
+
+.bpw-input {
+  flex: 1;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #f8fafc;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+
+.bpw-send {
+  border: 0;
+  color: #fff;
+  border-radius: 12px;
+  padding: 0 14px;
+  cursor: pointer;
+}
+
+.bpw-footnote {
+  margin-top: 6px;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.bpw-hidden {
+  display: none;
+}
+
